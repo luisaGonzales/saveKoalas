@@ -93,7 +93,7 @@ header nav {
 
 .info{
     padding-top: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
 }
 
 /* Seccion de Easy Help */
@@ -104,8 +104,10 @@ header nav {
     color: white;
     font-weight: bolder;
     font-size: 1em;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 8%;
+    padding-bottom: 8%; 
+    padding-left: 5%;
+
 }
 
 .background-white {
@@ -136,6 +138,17 @@ header nav {
 
 #easyHelp p {
     font-size: 0.9em ;
+    padding-right: 2%;
+}
+
+.img-cosita{
+    width: 80%;
+}
+
+.img-thumbnail{
+    padding: 10px !important;
+    border-radius: 0px !important;
+    
 }
 
 /* Seccion Help Koalas */
@@ -148,7 +161,7 @@ header nav {
     height: 800px;
     color: white;
     text-shadow: 2px 2px #000000;
-    padding-top: 10%;
+    
 }
 
 .help-koalas {
@@ -194,10 +207,6 @@ header nav {
     font-size: 0.9em;
 }
 
-
-
-
-
 /* Seccion Price */
 
 #price {
@@ -221,7 +230,7 @@ header nav {
 }
 
 #price a {
-    margin-top: 5%;
+    /* margin-top: 5%; */
     background-color: #41521F;
     border: 2px solid #41521F;
     font-weight: bold;
@@ -248,12 +257,6 @@ header nav {
     font-weight: bold;
 }
 
-.prices {
-    padding: 2% 10%;
-    margin-bottom: 2%;
-    
-}
-
 
 /* Footer */
 
@@ -278,6 +281,11 @@ footer a:hover {
     font-weight: bold;
     text-decoration: none;
 }
-@media screen  {
-    .h
+
+.linksFooter{
+    padding-top: 1%;
+}
+
+.img-tres{
+    width: 550px;
 }
